@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Setup Form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="main-left">
+      <img src="/image/image.png" alt="Avatar" width="150px">
+      <h2>Let's get you set up</h2>
+      <p>It should only take a couple of minutes to pair with your watch</p>
+    </div>
+
+    <div class="main-right">
+      <div class="box-group">
+        <label>Name</label>
+        <input type="text" >
+      </div>
+
+      <div class="box-group gender-group">
+        <label>Gender:</label>
+        <label><input type="radio" name="gender"> Male</label>
+        <label><input type="radio" name="gender" checked> Female</label>
+      </div>
+
+      <div class="box-group">
+        <label>Date of Birth</label>
+        <input type="date">
+      </div>
+
+      <div class="box-group">
+        <label>Email</label>
+        <input type="email" disabled>
+        <!-- disadled make it darker than the other  -->
+      </div>
+
+      <div class="box-group">
+        <label>Mobile</label>
+        <input type="text" disabled>
+      </div>
+
+      <div class="box-group">
+        <label>Customer ID</label>
+        <input type="text" disabled>
+      </div>
+
+      <div class="box-group membership-group">
+        <label>Membership:</label>
+        <label><input type="radio" name="membership" checked> Classic</label>
+        <label><input type="radio" name="membership"> Silver</label>
+        <label><input type="radio" name="membership"> Gold</label>
+      </div>
+
+      <div class="buttons">
+        <button class="cancel">CANCEL</button>
+        <button class="save">SAVE</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
